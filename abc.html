@@ -1,5 +1,163 @@
-Swiggy was founded in 1994 by Jeff Bezos, who is still the head of the company at the time. Based in Seattle, Amazon started out as an online bookseller and went on to become the world 's largest non-travel e-commerce business. Once the website was established as a bookseller, it was a logical step into the sale of other entertainment products, such as music and films, and also into the hardware used to deliver home entertainment.
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" href="favicon.ico">
+      <title>Home</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+      <link href="css/main.css" rel="stylesheet" />
+      <link href="css/login-main.css" rel="stylesheet" />
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <header class="header-top-nav">
+         <div class="top-nav ">
+            <div class="menu-left">
+               <div class="logo">
 
-Swiggy was a pioneer in the use of software that monitors each online customer 's preferences, enabling the company to suggest other products that may be of interest to the individual, either on their personalized web page or via e-mail. A book customer who walks out of a bookshop, with or without a purchased book, is effectively `lost ' to the store, but Amazon can target registered customers — with their permission — with messages such as `Recommended for you ' or `Customers who bought this item also bought '.
-asdfghjhgf
+                  <a href="index.html"><img src="images/logo.PNG" alt="logo"></a>
+               </div>
+               <div class="menu-wrap">
+                  <nav id="top-nav" class="menu">
+                     <ul class="main-menu">
+                        <li>
+                           Products
+                           <ul>
+                              <li><a href="#">Lifafa Rewards WL</a></li>
+                              <li><a href="#">Lifafa Rewards WL</a></li>
+                              <li><a href="#">Lifafa Rewards WL</a></li>
+                              <li>
+                                 Lifafa Rewards WL
+                                 <ul>
+                                    <li><a href="#">Loyalty Wallet</a></li>
+                                    <li><a href="#">Loyalty Wallet</a></li>
+                                    <li><a href="#">Loyalty Wallet</a></li>
+                                    <li><a href="#">Loyalty Wallet</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="menu-item--active-trail" ><a href="#">Services</a></li>
+                        <li><a href="#">Rewards Marketplace</a></li>
+                        <li><a href="#">Case Studies </a></li>
+                        <li><a href="#">Book a Demo</a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+            <div class="menu-right">
+               <div  class="user-in">
+                  <ul>
+                     <li><a href="#">Sign in</a></li>
+                     <li><a href="#">Sign up</a></li>
+                  </ul>
+               </div>
+               <div class="s-btn"><img src="{{directory}}/images/search-icon.PNG" alt="logo"></div>
+            </div>
+            <div class="search-row clear">
+               <div class="search">
+                  <form class="top-searchbox"><input type="search" name="gsearch" placeholder="Search" class="gsearch"> <input class="submit-btn" type="submit"> </form>
+               </div>
+            </div>
+         </div>
+      </header>
+      <div class="banner-inner clear">
+         <img src="{{file_url(node.field_banner_img.entity.fileuri)}}" alt="Lifafa">
+         <div class="banner-dsc">
+            <div class="container ">
+               <div class="title text-center">
+                  <h2>{{node.getTitle}}</h2>
+                  <div class="text-1">Gift Cards</div>
+               </div>
+            </div>
+         </div>
+      </div>
+	  <div class=" clear cash-card-sec">
+      <div class=" clear cash-card">
+         <div class="container news-singal">
+            <div class="fb-row">
+               <div class="news-left">
+                  <div class="img-100 clear">
+                     <img src="{{file_url(node.field_image1.entity.fileuri)}}" alt="Lifafa">
+                  </div>
+               </div>
+               <div class="news-content">
+
+                  <div class="title  pb-20">
+                     <h2>{{content.field_title1}}</h2>
+                     <div class="text-1">{{content.field_subtitle1}}</div>
+                  </div>
+                  <ul>
+                     {{content.body}}
+                  </ul>
+                  <div class="cta">
+				 For further information please <a href="#">contact us</a>
+				  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	      <div class="top-border"></div>
+      <div class=" clear cash-card">
+         <div class="container news-singal">
+            <div class="fb-row">
+               <div class="news-left">
+                  <div class="img-100 clear">
+
+                     <img src="{{file_url(node.field_image2.entity.fileuri)}}" alt="Lifafa">
+                  </div>
+               </div>
+               <div class="news-content">
+
+                  <div class="title  pb-20">
+
+                     <h2>{{content.field_title2}}</h2>
+                     <div class="text-1">{{content.field_subtitle2}}</div>
+                  </div>
+                  <ul>
+                    {{content.field_body2}}
+                  </ul>
+				                    <div class="cta">
+				 For further information please <a href="#">contact us</a>
+				  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+<div class="steps clear   pb-30">
+	  <div class="container container-1500 back-link back-right">
+	  <button type="button" class="scroll-top "></button>
+	  </div>
+	  </div>
+    </div>
+      <footer class="footer full-width">
+         <div class="footer-inner text-center">
+
+            <ul>
+               <li><a href="#">Partner With Us</a></li>
+               <li><a href="#">About Us</a></li>
+               <li><a href="#">Privacy Policy</a></li>
+               <li><a href="#">Contact Us</a></li>
+               <li><a href="#">Terms of Use</a></li>
+            </ul>
+         </div>
+         <div class="copyright text-center">
+            <div class="container">
+               &copy;  2021 Lifafa.com - All Rights Reserved
+            </div>
+         </div>
+      </footer>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/plugin.js"></script>
+   </body>
+</html>
 
